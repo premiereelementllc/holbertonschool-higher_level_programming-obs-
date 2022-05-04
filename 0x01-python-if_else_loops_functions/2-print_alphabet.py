@@ -1,3 +1,3 @@
 #!/usr/bin/python3
-str = "abcdefghijklmnopqrstuvwxyz"
-print (str)
+ping = str = "abcdefghijklmnopqrstuvwxyz"
+print (ping)
