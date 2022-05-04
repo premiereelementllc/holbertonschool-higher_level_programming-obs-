@@ -1,3 +1,3 @@
 #!/usr/bin/python3
-ping = str = "abcdefghijklmnopqrstuvwxyz"
-print (ping)
+for c in range(ord('a'), ord('z') + 1):
+print("{:c}".format(c), end="")
