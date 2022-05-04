@@ -1,2 +1,3 @@
 #!/usr/bin/python3
-print(str {abcdefghijklmnopqrstuvwxyz})
+str = "abcdefghijklmnopqrstuvwxyz"
+print (str)
