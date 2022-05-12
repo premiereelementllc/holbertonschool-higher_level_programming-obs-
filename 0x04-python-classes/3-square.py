@@ -1,7 +1,9 @@
 #!/usr/bin/python3
+'''squares are crucial in this project'''
+
 
 class Square:
-    
+    '''squares care for the time being'''
     def __init__(self, size=0):
         self.size = size
 

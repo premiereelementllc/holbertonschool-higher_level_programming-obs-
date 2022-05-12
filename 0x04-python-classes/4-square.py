@@ -1,8 +1,8 @@
 #!/usr/bin/python3
-
+'''squares are curcial in this project #'''
 
 class Square:
-    
+    '''this class prints a square'''
     def __init__(self, size=0):
         self.size = size
 
