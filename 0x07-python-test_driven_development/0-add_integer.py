@@ -15,9 +15,3 @@ def add_integer(a, b=98):
         else:
             raise TypeError("b must be an integer")
     return (a + b)
-© 2022 GitHub, Inc.
-Terms
-Privacy
-Security
-Status
-
