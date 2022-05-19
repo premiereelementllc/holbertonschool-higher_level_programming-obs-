@@ -1,6 +1,6 @@
 #!/usr/bin/python3
 ''' inheritance'''
-class MyList(list)
+class MyList(list):
 '''the above is inherited'''
     def print_sorted(self):
         '''copie'''
