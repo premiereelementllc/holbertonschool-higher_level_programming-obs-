@@ -1,6 +1,13 @@
-#!/usr/bin/bash
-""" things """
-class BaseGeometry:
-""" the pass return makes this an empty class """
+#!/usr/bin/python3
+"""
+Geometry module
+Classes:
+    BaseGeometry
+"""
 
+
+class BaseGeometry:
+    """
+    this class is a base of Geometry
+    """
     pass
