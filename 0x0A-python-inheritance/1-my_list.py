@@ -1,7 +1,9 @@
 #!/usr/bin/python3
-''' inheritance'''
+""" 1-my_list.py MyList that inherits from list """
+
+
 class MyList(list):
-'''the above is inherited'''
+    """ MyList() subclass of List """
     def print_sorted(self):
-        '''copie'''
-    print(sorted(self))
+        """prints the list but sorted (ascending)"""
+        print(sorted(self))
