@@ -1,4 +1,5 @@
 #!/usr/bin/python3
 
 def lookup(obj):
-    return dir(obj)
+    list = dir(obj)
+    return(list)
