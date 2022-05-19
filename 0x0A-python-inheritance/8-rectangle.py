@@ -1,16 +1,12 @@
-
 #!/usr/bin/python3
-"""Contains a subclass of rectangle"""
-
-
+""" 8-rectangle.py creates a Rectangle from BaseGeometry """
 BaseGeometry = __import__('7-base_geometry').BaseGeometry
 
 
 class Rectangle(BaseGeometry):
-    """Rectangle"""
+    """ Rectangle inherits from BaseGeometry """
     def __init__(self, width, height):
-        """Initalizaction the class"""
-        self.__width = width
-        self.__height = height
         self.integer_validator("width", width)
         self.integer_validator("height", height)
+        self.__width = width
+        self.__height = height
