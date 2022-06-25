@@ -1,4 +1,4 @@
--- lists the shows in the database
+
 SELECT tv_shows.title, tv_show_genres.genre_id
 FROM tv_show_genres
 RIGHT JOIN tv_shows
